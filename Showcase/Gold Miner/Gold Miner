@@ -1,0 +1,94 @@
+# Gold Miner (Unity + C#)
+
+A physics-based arcade game inspired by classic Gold Miner mechanics.  
+The player uses a swinging claw to grab objects with different weights and values.
+
+---
+
+## Gameplay Overview
+
+The player controls a rotating claw that automatically extends and retracts to grab objects such as gold, rocks, and other items.
+
+Each object has different:
+- weight
+- pull speed
+- score value
+
+The goal is to reach the target score before time runs out.
+
+---
+
+## Core Features
+
+- Physics-based claw grabbing system
+- Swinging motion with timing mechanics
+- Multiple object types (gold, rock, etc.)
+- Score system based on object value
+- Round-based gameplay loop
+- Simple UI (score / timer / win-lose state)
+
+---
+
+## Technical Highlights
+
+### Physics System
+- Unity Rigidbody / Collider-based interaction
+- Distance-based pulling behavior
+- Object weight affects pull speed
+
+### Claw System
+- Rotating pivot-based swing system
+- Auto extend / retract cycle
+- Collision-triggered grab logic
+
+### Gameplay Loop
+- Timer-based rounds
+- Score target system
+- Win / Lose state handling
+
+### 🧩 Architecture
+- GameManager controls game state
+- ClawController handles movement + grabbing
+- Object scripts define behavior & value
+
+---
+
+## 📸 Screenshots
+
+Add your images here:
+
+- Main gameplay (claw swinging)
+- Object grabbing moment
+- Score / timer UI
+- Win / Lose screen
+
+---
+
+## Gameplay Recording
+
+Part 1: https://youtu.be/3KqqxSRBwTc
+Part 2: https://youtu.be/KMl8JtWx9iM
+Part 3: https://youtu.be/GO3FWsBDEJg
+Part 4: https://youtu.be/hbTq4nVAnks
+
+---
+
+## What I Learned
+
+- Physics-based gameplay design in Unity
+- Timing-based game mechanics
+- Object interaction systems
+- Game loop and state machine design
+- Balancing gameplay values (risk vs reward)
+
+---
+
+## Why This Project Matters
+
+This project demonstrates:
+- Real-time physics interaction design
+- Player-driven timing mechanics
+- System-based gameplay structure
+- Clean separation of gameplay logic
+
+It is the most representative project of my gameplay programming ability.
