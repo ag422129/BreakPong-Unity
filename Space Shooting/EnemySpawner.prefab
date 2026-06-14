@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4056982841019555704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3410248839475129708}
+  - component: {fileID: 208913143621911262}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3410248839475129708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4056982841019555704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02, y: 4.01, z: 0.015059443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &208913143621911262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4056982841019555704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eef5345fc989c449870c26d925b412c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - enemies:
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    spawnPoints:
+    - {x: 2, y: 8, z: 0}
+    - {x: -2, y: 8, z: 0}
+    isBossRound: 0
+  - enemies:
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    spawnPoints:
+    - {x: -8, y: 8, z: 0}
+    - {x: -3, y: 8, z: 0}
+    - {x: 3, y: 8, z: 0}
+    - {x: 6, y: 8, z: 0}
+    isBossRound: 0
+  - enemies:
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    - {fileID: 8704871149286230883, guid: b3a874f7e4489d64a8ef06dcbf6803f0, type: 3}
+    spawnPoints:
+    - {x: -8, y: 8, z: 0}
+    - {x: -3, y: 8, z: 0}
+    - {x: 3, y: 8, z: 0}
+    - {x: 6, y: 8, z: 0}
+    - {x: 3, y: 8, z: 0}
+    - {x: -3, y: 8, z: 0}
+    isBossRound: 0
+  spawnDelay: 0.5
+  nextWaveDelay: 2
+  countSpawn: 0
