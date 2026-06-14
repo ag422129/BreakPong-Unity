@@ -1,0 +1,44 @@
+# Tetris (Unity + C#)
+
+Classic Tetris implementation built in Unity with grid-based logic.
+
+---
+
+## Gameplay Overview
+
+Players control falling tetromino pieces and clear full lines to gain score.
+
+---
+
+## Features
+
+- Grid-based movement system
+- Piece rotation system
+- Line clearing algorithm
+- Score system
+- Game over detection
+
+---
+
+## Technical Highlights
+
+- 2D grid data structure
+- Collision detection system
+- Rotation logic for tetromino pieces
+- Game state management
+
+---
+
+
+## Gameplay Recording
+
+https://youtu.be/qs5vSePduwQ
+
+---
+
+## What I Learned
+
+- Grid-based system design
+- Algorithmic thinking (line clearing)
+- Game loop structure
+- Input handling in Unity
